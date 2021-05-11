@@ -1,0 +1,28 @@
+.result{
+    width: 100%;
+    height: 100vh;
+    background-color: #138599;
+    display: grid;
+    place-items: center;
+}
+.resultContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+}
+.retry{
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.retry:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

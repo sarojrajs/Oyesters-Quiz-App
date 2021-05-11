@@ -1,0 +1,26 @@
+.question{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+.optionRow1{
+    display: flex;
+}
+.optionRow2{
+    display: flex;
+}
+.resetOption{
+    width: 70px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-size: 18px;
+}
+.resetOption:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}

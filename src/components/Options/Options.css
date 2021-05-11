@@ -1,0 +1,17 @@
+.options{
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+    background-color: rgb(163, 161, 161);
+    border-radius: 10px;
+    margin: 5px;
+    border: none;
+    padding: 10px;
+}
+.options:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+#optionSelected{
+    border: 3px solid black;
+}

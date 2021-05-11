@@ -1,0 +1,41 @@
+.instruction{
+    width: 400px;
+    height: 200px;
+}
+.instructionContainer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instructionDetails{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}   
+.instructionDetails p{
+    font-size: 18px;
+}
+.startQuiz__Button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background-color: lightgray;
+    border-radius: 20px;
+    transition: all 0.1s ease-in;
+}
+
+.startQuiz__Button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+@media only screen and (max-width:300px) {
+   .instructionDetails p{
+       font-size: 15px;
+   }
+}
